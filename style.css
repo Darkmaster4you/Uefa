@@ -1,0 +1,69 @@
+body{
+
+    background-color:#ebebeb;
+
+
+
+}
+/*Navbar*/
+
+.navbar {
+
+    background-image: linear-gradient(to right, #D7D7D7 0% , #353535 30%, #D7D7D7 100%);
+
+}
+
+
+.navbar-brand {
+
+font-style: italic;
+}
+
+
+/*first section*/
+
+.first-section{
+
+  font-size: 20px;
+  font-weight: 600;
+text-align: center;
+margin: 10px 0px;
+}
+
+.first-card img{
+
+max-width:90vw;
+max-height:40vw;
+border-radius: 10px;
+margin: auto;
+transition: ease 1s;
+}
+
+.first-card img:hover{
+
+cursor: pointer;
+transform: scale(1.1);   
+    }
+
+    .first-card a {
+
+    display: inline-block;
+    margin-bottom: 32px;
+    transition: ease 1s; 
+    margin-top: 26px;
+    text-decoration: none;
+    background-color: yellowgreen;
+    border-radius: 15px;
+    border: 20px;
+    padding: 12px;
+
+    }
+
+    .first-card a:hover {
+                
+        transform: rotate(360deg);
+       tex
+        transform: scale(1.2);
+        background-color: blueviolet;
+        rotate: 0 1 0 360deg;
+       }
